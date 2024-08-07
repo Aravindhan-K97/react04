@@ -1,0 +1,104 @@
+.topnav {
+  border-bottom: lightgrey solid 1px;
+}
+#menu {
+  background: white;
+  height: auto;
+  border-radius: 10px;
+  border-bottom: lightgrey solid 1px;
+  border-top: lightgrey solid 1px;
+  font-family: "dm sans", sans-serif;
+  
+}
+#menu ul,
+#menu li {
+  margin: 0 auto;
+  padding: 5px 15px;
+  list-style: none;
+}
+#menu ul {
+  width: 100%;
+  text-align: center;
+  
+}
+#menu li {
+  display: inline-block;
+  cursor: pointer;
+}
+.link-style {
+  text-decoration: none;
+  color: black;
+}
+
+
+.nav-underline .nav-link {
+  position: relative;
+  color: grey;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.nav-underline .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  transition: width 0.3s;
+}
+
+.nav-underline .nav-link:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.nav-underline .nav-link:hover::before {
+  width: 100%;
+}
+
+.card-container {
+  font-family: "dm sans", sans-serif;
+  font-size: 21px;
+  margin: auto 19%;
+  border-radius: 8px;
+}
+.card {
+  box-shadow: inset 0px -14px 300px -163px rgba(0, 0, 0, 0.75);
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+}
+.card-text {
+  color: black;
+  font-size: 14px;
+}
+.card-read {
+  color: yellowgreen;
+  font-size: 14px;
+  cursor: pointer;
+}
+.custom-card-footer {
+  color: gray;
+  display: flex;
+  font-size: 14px;
+}
+.custom-card-footer li {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: white;
+  color:gray;
+  padding-top: 1%;
+  text-align: center;
+  margin-top: 5%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  border-bottom: lightgrey solid 1px;
+  border-top: lightgrey solid 1px;
+}
