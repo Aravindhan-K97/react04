@@ -30,4 +30,4 @@ This is a React-based blog application that showcases articles on various topics
 
 ## Nelify Deployed URL
 
-🔸*Check out My Routing GUVI Blog Here*👉🏻 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://routing-guvi-blog-react-task-4.netlify.app/)
+🔸*Check out My Routing GUVI Blog Here*👉🏻 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://routing-guvi-blog.netlify.app/)
